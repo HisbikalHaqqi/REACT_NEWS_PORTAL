@@ -1,0 +1,38 @@
+@import  '../root/colors';
+
+.section-card-post{
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    .card-post-description{
+        box-shadow: 1px 1px 15px $color-grey-700;
+        padding: 1rem;
+        width: 100%;
+
+        img{
+            width: 100%;
+            opacity: 0.7;
+            
+        }
+
+        h5{
+            line-height: 1px;
+        }
+
+        &:hover{
+            transform: translateY(-15px);
+            transition: .35s ease-in-out;
+
+            img{
+                opacity: 1.0;
+                transition: .35s ease-in-out;
+            }
+        }
+    }
+}
+
+p{
+    &.load-link{
+        color:$color-grey-700;
+    }
+}

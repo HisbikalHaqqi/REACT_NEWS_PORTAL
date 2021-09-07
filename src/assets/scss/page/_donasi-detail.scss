@@ -1,0 +1,104 @@
+@import '../root/colors';
+
+.section-background{
+    position: relative;
+    padding-right: 3.5%;
+    padding-left: 3.5%;
+    margin-top: -2rem;
+
+    h2{
+        padding-top: 3rem;
+    }
+
+    h3{
+        line-height: 0;
+        padding-bottom: 3rem;
+        color: $color-grey-700;
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+
+    img{
+        opacity: 0.7;
+    
+        &:hover{
+            opacity: 1.0;
+            transition: .35s ease-in;
+        }
+    }
+
+
+    .img-section{
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.section-detail-wrapper{
+    box-shadow: 1px 1px 15px $color-grey-500;
+
+
+    .description{
+        padding-left: 2rem;
+        padding-top: 1rem;
+        padding-right: 2rem;
+        text-align: justify;
+        line-height: 2rem;
+    }
+
+    .donate{
+        padding: 2rem;
+
+        button{
+            margin-top: 2rem;
+            padding: 1rem;
+        }
+    }
+
+    .title{
+        img{
+            position: absolute;
+            padding: 1rem;
+        }
+        h2{
+            padding-top: 1rem;
+            padding-left: 4rem;
+            color: $color-grey-700;
+        }
+        p{
+            padding-left: 4rem;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: $color-grey-700;
+        }
+    
+        h3{
+            line-height: 0;
+            padding-bottom: 0rem;
+            color: $color-grey-700;
+            font-weight: 400;
+            font-size: 1.2rem;
+            padding-left: 4rem;
+            font-weight: 700;
+        }
+    }
+}
+
+.info-bank{
+    padding-left: 2rem;
+    padding-right: 5%;
+}
+
+.slider{
+    display: flex;
+    
+    .icon-arrow{
+        margin-top: 20%;
+        padding: 2rem;
+    }
+    img{
+        width: 100%;
+        height: 20%;
+    }
+}

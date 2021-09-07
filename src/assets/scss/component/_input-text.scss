@@ -1,0 +1,23 @@
+@import '../root/colors';
+
+.form-group{
+    justify-content: space-between;
+    .form-inline{
+        box-shadow: 1px 1px 20px $color-grey-500;
+        border: none;
+        padding: 1rem;
+        width: 25rem;
+    }
+
+    .form-wrapper{
+
+        img{
+            padding: 0.5rem;
+            position: absolute;
+        }
+
+        input[type="text"]{
+            padding-left: 1rem;
+        }
+    }
+}

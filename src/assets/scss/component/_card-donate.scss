@@ -1,0 +1,73 @@
+@import '../root/colors';
+
+.section-donasi{
+    padding-left: 5%;
+    padding-right: 5%;
+
+    h3{
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    .card-wrapper-donasi{
+        box-shadow: 1px 1px 10px $color-grey-600;
+        width: 400px;
+        overflow: auto;
+        
+        &:hover{
+            transition: 0.15s ease-in;
+            transform: translateY(-15px);
+
+            .img-thumbnail{
+
+                img{
+                    transition: 0.35s ease-in;
+                    opacity: 1.0;
+                }
+            }
+        }
+
+        .img-thumbnail{
+
+            img{
+                width: 100%;
+                opacity: 0.7;
+            }
+
+            .badge{
+                background-color: $color-grey-500;
+                img{
+                    width: 30px;
+                    padding: 0.5rem;
+                }
+            }
+        }
+        
+        .card-title{
+            margin-top: -10px;
+            background-color: $color-grey-400;
+        }
+
+        .card-description{
+            background-color: $color-grey-700;
+            padding: 1rem;
+
+            h5{
+                line-height: 0;
+                color: white;
+                font-weight: 300;
+                font-size: 3vh;
+            }
+
+            p{
+                color: white;
+                font-weight: 300;
+            }
+
+            span{
+                font-weight: 700;
+                color: $color-white;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+@import '../root/colors';
+
+button{
+    border: none;
+    padding: 1rem;
+    font-size: 1.3rem;
+    
+    &.btn-primary{
+        box-shadow: 1px 1px 3px $color-grey-600;
+        color: white;
+        background-color: $color-red-500;
+        width: 200px;
+        border-radius: 1rem;
+
+        &:hover{
+            background-color: $color-red-700;
+            transition: 0.35s ease-in;
+        }
+    }
+}

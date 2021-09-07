@@ -1,0 +1,52 @@
+@import '../root/colors';
+
+.card-donate-recent-wrapper{
+    padding-left: 2rem;
+}
+
+.card-donate-recent{
+    display: inline-flex;
+
+    &:hover{
+        transition: 0.15s ease-in;
+        transform: translateY(-10px);
+
+        
+    }
+}
+
+.card-recent-wrapper{
+    box-shadow: 1px 1px 15px $color-grey-700;
+    margin-top: 1.2rem;
+
+    .img-recent-donate{
+        width: 200px;
+        padding: 1rem;
+
+        img{
+            width: 100%;
+            opacity: 0.7;
+
+            &:hover{
+                    opacity: 1.0;
+                    transition: .35s ease-in-out;
+            }
+        }
+    }
+
+    .badge-wrapper{
+        background-color: $color-grey-700;
+        width: 180px;
+        color: $color-white;
+        border-radius: 1rem;
+        
+        
+        p{
+            &:hover{
+                transition: 0.3s ease-in;
+                background-color: $color-primary;
+            }
+            padding: 0.5rem;
+        }
+    }
+}
